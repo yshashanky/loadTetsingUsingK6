@@ -1,7 +1,7 @@
 import http from 'k6/http';
 import { sleep } from 'k6';
-import { htmlReport } from "./bundle.js";
-import { textSummary } from "./index.js";
+import { htmlReport } from "./resource/bundle.js";
+import { textSummary } from "./resource/index.js";
 
 export let options = {
     insecureSkipTLSVerify: true,
